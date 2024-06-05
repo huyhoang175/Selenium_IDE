@@ -1,0 +1,505 @@
+{
+  "id": "25c85236-60d5-428f-916a-7314bf99e0f5",
+  "version": "2.0",
+  "name": "Test web",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "fd2a15b2-38ef-433b-95b6-eec87fb149db",
+    "name": "Test trang",
+    "commands": [{
+      "id": "d48053f1-ac2e-4d4d-a078-e21198c31f33",
+      "comment": "",
+      "command": "open",
+      "target": "/PHP/Index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9abdb66-a8b0-496c-9f95-c61d4183af4b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01bbdeba-b887-4fce-a78d-45e52dba4251",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user-avatar",
+      "targets": [
+        ["css=.user-avatar", "css:finder"],
+        ["xpath=//img[@alt='User Avatar']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25c83302-ddf3-4905-b69a-d5905989b8f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SportManagement')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e03a1ae4-deb0-4996-bc64-fa513b0a9b0f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to Dashboad",
+      "targets": [
+        ["linkText=Go to Dashboad", "linkText"],
+        ["css=.a-dashboad", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to Dashboad')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../PHP/Dashboard.php')]", "xpath:href"],
+        ["xpath=//main/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to Dashboad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c4cd24e-b069-4388-bdc2-beb82d7002b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../PHP/programs.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1792",
+      "windowTimeout": 2000
+    }, {
+      "id": "073c424b-67dd-4188-b43a-44d94c5f7d0b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1792}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2edd16ae-071a-43d1-9824-f1472be748f3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registrations",
+      "targets": [
+        ["linkText=Registrations", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrations')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../php/registrations.php')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registrations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe12e0cd-1a26-490b-b93d-8b2d8dbb6db3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Members",
+      "targets": [
+        ["linkText=Members", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Members')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../php/member.php')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Members')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cf4e1c1-505a-4481-aabd-a1313ac7e611",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Website",
+      "targets": [
+        ["linkText=Website", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Website')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../php/website.php')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Website')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20b9b1f2-3fcf-4ab2-83a3-d60cc0f6d849",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dashboard",
+      "targets": [
+        ["linkText=Dashboard", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../PHP/dashboard.php')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55b3e493-04ae-41d5-b25d-91eb8850d6b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SportManagement')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86d39c33-f188-4b34-8697-3d088d43c6de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Search Program",
+      "targets": [
+        ["linkText=Search Program", "linkText"],
+        ["css=.a-search", "css:finder"],
+        ["xpath=//a[contains(text(),'Search Program')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../PHP/SearchProgram.php')]", "xpath:href"],
+        ["xpath=//main/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Search Program')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "844a77d8-4036-42e1-ba7a-c9347f308193",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SportManagement')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f9be9e03-5caa-46c3-909a-191e2a3bf0df",
+    "name": "Test Create Program",
+    "commands": [{
+      "id": "6b54b9a4-627e-4a89-9434-353a30cd233b",
+      "comment": "",
+      "command": "open",
+      "target": "/PHP/Index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6b27e83-3a14-4021-9d3c-e56a676b36c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b832bcc6-cf18-489e-a0bc-147640305308",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SportManagement')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "198ac2e7-7678-406b-ab65-e7e1a7b0042f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to Dashboad",
+      "targets": [
+        ["linkText=Go to Dashboad", "linkText"],
+        ["css=.a-dashboad", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to Dashboad')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../PHP/Dashboard.php')]", "xpath:href"],
+        ["xpath=//main/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to Dashboad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b1b5547-e3ed-4ff3-9fa5-baa3a1da414e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../PHP/programs.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7187",
+      "windowTimeout": 2000
+    }, {
+      "id": "755a54e3-0b61-4db5-b2ea-4945a1ecb563",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7187}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00f277e3-6f0a-49f1-a4a9-26a9ece42fdd",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=createProgram", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34ab46ed-816e-4b23-a9eb-2a8d83163c5d",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//form[@id='addMemberPopup']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b284d6f-17c4-4075-afe9-f63b8399ed3b",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//form[@id='addMemberPopup']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "PKA 4"
+    }, {
+      "id": "a412835f-2116-43d6-ad2f-c56b5a848def",
+      "comment": "",
+      "command": "click",
+      "target": "name=sport",
+      "targets": [
+        ["name=sport", "name"],
+        ["css=.input_program > #sport", "css:finder"],
+        ["xpath=(//select[@id='sport'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='addMemberPopup']/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaa915b3-f670-4be0-8f07-3ae0c77a934d",
+      "comment": "",
+      "command": "select",
+      "target": "name=sport",
+      "targets": [],
+      "value": "label=Badminton"
+    }, {
+      "id": "4dfaee05-ff7c-44a9-aedf-843659f1d49c",
+      "comment": "",
+      "command": "click",
+      "target": "id=program",
+      "targets": [
+        ["id=program", "id"],
+        ["name=program", "name"],
+        ["css=#program", "css:finder"],
+        ["xpath=//select[@id='program']", "xpath:attributes"],
+        ["xpath=//form[@id='addMemberPopup']/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "135a5ef1-c9d4-4a78-a68c-489df57182ec",
+      "comment": "",
+      "command": "select",
+      "target": "id=program",
+      "targets": [],
+      "value": "label=Camp"
+    }, {
+      "id": "eff8f206-3b13-4c4d-abe2-31640b33a319",
+      "comment": "",
+      "command": "click",
+      "target": "id=addMember",
+      "targets": [
+        ["id=addMember", "id"],
+        ["css=#addMember", "css:finder"],
+        ["xpath=//input[@id='addMember']", "xpath:attributes"],
+        ["xpath=//form[@id='addMemberPopup']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5cffbaf-2336-4412-9804-0a436ceb527d",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SportManagement')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6b66f75-caf4-4642-a9a4-96465addd6a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to Dashboad",
+      "targets": [
+        ["linkText=Go to Dashboad", "linkText"],
+        ["css=.a-dashboad", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to Dashboad')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../PHP/Dashboard.php')]", "xpath:href"],
+        ["xpath=//main/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to Dashboad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a246895-a2d0-45ab-931e-cfbd59fbea31",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='sidebar']/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a17f05d6-c441-47f7-9391-dd3cefa57925",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../PHP/programs.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f7068321-5768-41dd-9c3a-3da64fe4d912",
+    "name": "Test Search",
+    "commands": [{
+      "id": "b4c8825b-a42d-4311-ae1a-87d23ee92bc7",
+      "comment": "",
+      "command": "open",
+      "target": "/PHP/Index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa5ac4de-fee7-4f0a-b2b2-809ed5532d6f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Search Program",
+      "targets": [
+        ["linkText=Search Program", "linkText"],
+        ["css=.a-search", "css:finder"],
+        ["xpath=//a[contains(text(),'Search Program')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../PHP/SearchProgram.php')]", "xpath:href"],
+        ["xpath=//main/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Search Program')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d547544-5ee6-4757-974c-3652835b42eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_title",
+      "targets": [
+        ["id=search_title", "id"],
+        ["css=#search_title", "css:finder"],
+        ["xpath=//input[@id='search_title']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2a985a0-69e9-4473-8acd-a041981a93ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_title",
+      "targets": [
+        ["id=search_title", "id"],
+        ["css=#search_title", "css:finder"],
+        ["xpath=//input[@id='search_title']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "p"
+    }, {
+      "id": "5e612f7a-9155-4bf9-bdd2-06aa5a00550a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search_title",
+      "targets": [
+        ["id=search_title", "id"],
+        ["css=#search_title", "css:finder"],
+        ["xpath=//input[@id='search_title']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5fd2e0ab-3d5c-4737-aac0-aac398cdeabf",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_title",
+      "targets": [
+        ["id=search_title", "id"],
+        ["css=#search_title", "css:finder"],
+        ["xpath=//input[@id='search_title']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a2c79db-5cde-4cbf-8c65-2bc5c92399ab",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search_title",
+      "targets": [
+        ["id=search_title", "id"],
+        ["css=#search_title", "css:finder"],
+        ["xpath=//input[@id='search_title']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8c834a39-18c3-4a9d-a73b-a26dce93739d",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_title",
+      "targets": [
+        ["id=search_title", "id"],
+        ["css=#search_title", "css:finder"],
+        ["xpath=//input[@id='search_title']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "41ad7966-e9ce-4a0d-9585-a4a0bd762412",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fd2a15b2-38ef-433b-95b6-eec87fb149db"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
